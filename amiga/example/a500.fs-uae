@@ -1,0 +1,16 @@
+# Example configuration for FS-UAE (Amiga Emulator)
+# Hooks up to pseudo terminal pty_sim
+# fs: a directory for virtual file system
+# ks: ROM image
+[fs-uae]
+serial_port = pty_sim
+zoom = full
+#zoom = 704x540
+#scanlines = 1
+#scanlines_dark = 100
+amiga_model = A500/512K
+chip_memory = 512
+hard_drive_0 = fs
+kickstart_file = ks
+slow_memory = 512
+

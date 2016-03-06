@@ -1,0 +1,18 @@
+# Uncomment for useful debug info on the remote protocol.
+#set debug remote 1
+#set debug serial 1
+#set debug infrun 1
+#set debug target 1
+#set debug monitor 1
+
+# Execbase is here:
+#x/wx 4
+
+# Print some ROM text (Kickstart 1.3)
+#x/s 0xf80018
+#x/s 0xf8003b
+
+print ""
+print "Use 'load', then 'cont' to start the target application.  'detach' can be used"
+print "before exit."
+
